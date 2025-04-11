@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookParadise Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="./Styles/ai.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <!-- Start Navbar -->
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html" class="logo-red">BookParadise</a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- End Navbar -->
+
+            <!-- Start Banner -->
+            <div class="row">
+                <div class="col-2">
+                    <h2>Explore BookParadise here</h2>
+                    <p>
+                        We have a huge collection of books in information technology. BookParadise offers all books at
+                        fair prices and extends customer satisfaction by providing a user-friendly search engine, easy
+                        payment options, and quicker delivery systems. We provide exciting offers and discounts on our
+                        books. BookParadise is also looking to partner with all the sellers around the country.
+                        We have an affiliate program that pays a 10% commission on every sale. Anyone can join the
+                        program and be rewarded for advocacy of books. BookParadise wants to give back to everyone who
+                        promotes books, authors, and independent bookstores! We give away over 65% of our profit margin
+                        to stores and authors who make up the inspirational culture around books!</p>
+                    <a href="product.html" class="btn">Explore Now &#10137;</a>
+                </div>
+                <div class="col-2">
+                    <img src="./Images/banner.png" alt="Banner">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Banner -->
+
+    <!-- Start Category -->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="./Images/category1.jpg" alt="Category 1">
+                </div>
+                <div class="col-3">
+                    <img src="./Images/category2.jpg" alt="Category 2">
+                </div>
+                <div class="col-3">
+                    <img src="./Images/category3.jpg" alt="Category 3">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Category -->
+
+    <!-- Start Featured Products -->
+    <div class="featured">
+        <div class="small-container">
+            <h2 class="title">Featured Products</h2>
+            <div class="row" id="product-list">
+                <!-- Product 1 -->
+                <div class="col-4" data-target="#modal1">
+                    <img src="./Images/html-book.jpg" alt="HTML Book">
+                    <h4 class="product-name">HTML</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$80.00</p>
+                </div>
+                <!-- Repeat for other products with data-target="#modal2" to "#modal8" -->
+            </div>
+        </div>
+    </div>
+    <!-- End Featured Products -->
+
+    <!-- Footer (unchanged) -->
+
+    <!-- Modals -->
+    <div class="modal" id="modal1">
+        <div class="single-item">
+            <div class="small-container">
+                <div class="modal-header">
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img src="./Images/Image1.jpg" alt="HTML Book">
+                    </div>
+                    <div class="col-2">
+                        <!-- Modal content unchanged -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Repeat other modals with ids #modal2 to #modal8 -->
+
+    <div id="overlay"></div>
+</body>
+</html>
